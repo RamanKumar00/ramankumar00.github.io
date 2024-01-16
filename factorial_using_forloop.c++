@@ -10,6 +10,6 @@ int main()
     {
         fact=fact*i;
     }
-    cout<<"factorial of n: "<<fact;
+    cout<<"l of n: "<<fact;
     return 0;
 }
