@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Raman Kumar.</h1>
-<h3 align="center">A passionate frontend developer from India.</h3>
+<h3 align="center">A passionate software developer from India.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ramankumar00&label=Profile%20views&color=0e75b6&style=flat" alt="ramankumar00" /> </p>
 
@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/@sky_writer11" target="blank"><img src="https://img.shields.io/twitter/follow/@sky_writer11?logo=twitter&style=for-the-badge" alt="@sky_writer11" /></a> </p>
 
-- 🌱 I’m currently learning **CPP,DSA**
+- 🌱 I’m currently learning **CPP,DSA,python**
 
 - 💬 Ask me about **C,C++,HTML**
 
