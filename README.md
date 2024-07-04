@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/@sky_writer11" target="blank"><img src="https://img.shields.io/twitter/follow/@sky_writer11?logo=twitter&style=for-the-badge" alt="@sky_writer11" /></a> </p>
 
-- 🌱 I’m currently learning **CPP,DSA,python**
+- 🌱 I’m currently learning ** CPP , DSA , python **
 
 - 💬 Ask me about **C,C++,HTML**
 
