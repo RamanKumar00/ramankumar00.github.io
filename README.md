@@ -1,26 +1,26 @@
-    <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=RamanKumar00.RamanKumar00" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=RamanKumar00.RamanKumar00" />
 
-    <h1 align="center">
+<h1 align="center">
         <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Raman+Kumar!;" />
     </h1>
     
-    <h3 align="center">A passionate software developer from India. 🇮🇳</h3>
+<h3 align="center">A passionate software developer from India. 🇮🇳</h3>
     
-    <br/>
+<br/>
     
-    <div align="center">
+<div align="center">
      
-     🔭 I’m currently working on **Flutter**
+🔭 I’m currently working on **Flutter**
      
-     🌱 I’m currently learning **Dart,Python,Flutter**
+🌱 I’m currently learning **Dart,Python,Flutter**
     
-    💬 Ask me about **C, CPP, HTML, CSS, JavaScript, MySql... or anything [here](https://github.com/RamanKumar00/RamanKumar00/issues)**
+💬 Ask me about **C, CPP, HTML, CSS, JavaScript, MySql... or anything [here](https://github.com/RamanKumar00/RamanKumar00/issues)**
     
-    ⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
+⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
     
-     </div>
+</div>
      
-    <div align="center"> 
+ <div align="center"> 
       <a href="mailto:ramankr7321@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
       </a>
@@ -32,7 +32,7 @@
       </a>
     </div>
     
-     <hr/>
+   <hr/>
     <div style="display: flex;flex-direction:column; align-items: center; justify-content: center;">
       <div style="display: flex; align-items: center;">
           <h2>Languages:</h2> 
@@ -42,7 +42,7 @@
         <h2>Tools:</h2> 
         <img src="https://skillicons.dev/icons?i=windows,linux,github,vscode" style="margin-left: 10px;" />
     </div>
-    <!-- <div style="display: flex; align-items: center; justify-content: center;">
+ <!-- <div style="display: flex; align-items: center; justify-content: center;">
         <h2>Database:</h2> 
         <img src="https://skillicons.dev/icons?i=windows,linux,github,vscode" style="margin-left: 10px;" />
     </div>
@@ -50,14 +50,14 @@
         <h2>Framework:</h2> 
         <img src="https://skillicons.dev/icons?i=windows,linux,github,vscode" style="margin-left: 10px;" />
     </div> -->
-    </div>
+ </div>
     
-    <br/>
+ <br/>
     <hr/>
       
-    <hr/>
+<hr/>
     
-    <h2 align="center">⚡ Stats ⚡</h2>
+ <h2 align="center">⚡ Stats ⚡</h2>
     <br>
     <div align=center>
       <img width=390 src="https://streak-stats.demolab.com/?user=ramankumar00" alt="streak stats"/>
@@ -66,8 +66,8 @@
       <img width=325 align="center" src="https://github-readme-stats-RamanKumar00.vercel.app/api/top-langs/?username=RamanKumar00&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
     </div>
     
-    <br/><br/>
+ <br/><br/>
     
-    <hr/>
+ <hr/>
     
-    <br/>
+<br/>
