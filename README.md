@@ -4,35 +4,37 @@
         <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Raman+Kumar!;" />
     </h1>
     
-<h3 align="center">A passionate software developer from India. 🇮🇳</h3>
+ <h3 align="center">A passionate software developer from India. 🇮🇳</h3>
     
 <br/>
     
-<div>
+ <div align="center">
      
-🔭 I’m currently working on **Flutter**
+ 🔭 I’m currently working on **Flutter**
      
-🌱 I’m currently learning **Dart,Python,Flutter**
+ 🌱 I’m currently learning **Dart,Python,Flutter**
     
-💬 Ask me about **C, CPP, HTML, CSS, JavaScript, MySql... or anything [here](https://github.com/RamanKumar00/RamanKumar00/issues)**
+ 💬 Ask me about **C, CPP, HTML, CSS, JavaScript, MySql... or anything [here](https://github.com/RamanKumar00/RamanKumar00/issues)**
     
 ⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
     
-</div>
-     
- <div align="center"> 
-      <a href="mailto:ramankr7321@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-      </a>
-      <a href="https://www.linkedin.com/in/raman-kumar-b80913282/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-      </a>
-      <a href="https://RamanKumar00.github.io" target="_blank">
-         <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
-      </a>
-    </div>
-    
-   <hr/>
+ </div>
+     <hr/>
+     <div align="center" style="display: flex; align-items: center; justify-content: center;"> 
+        <h2 >Connect with me:</h2>
+        <div style="display: flex; margin-left: 10px;">
+            <a href="mailto:ramankr7321@gmail.com">
+                <img src="https://skillicons.dev/icons?i=gmail" />
+              </a>
+              <a href="https://www.linkedin.com/in/raman-kumar-b80913282/" target="_blank">
+                <img src="https://skillicons.dev/icons?i=linkedin" target="_blank" style="margin: 0 10px 0 10px;" />
+              </a>
+              <a href="https://RamanKumar00.github.io" target="_blank">
+                 <img src="https://skillicons.dev/icons?i=github" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+              </a>
+        </div>
+      </div>
+     <hr/>
     <div style="display: flex;flex-direction:column; align-items: center; justify-content: center;">
       <div style="display: flex; align-items: center;">
           <h2>Languages:</h2> 
@@ -42,7 +44,7 @@
         <h2>Tools:</h2> 
         <img src="https://skillicons.dev/icons?i=windows,linux,github,vscode" style="margin-left: 10px;" />
     </div>
- <!-- <div style="display: flex; align-items: center; justify-content: center;">
+    <!-- <div style="display: flex; align-items: center; justify-content: center;">
         <h2>Database:</h2> 
         <img src="https://skillicons.dev/icons?i=windows,linux,github,vscode" style="margin-left: 10px;" />
     </div>
@@ -50,11 +52,10 @@
         <h2>Framework:</h2> 
         <img src="https://skillicons.dev/icons?i=windows,linux,github,vscode" style="margin-left: 10px;" />
     </div> -->
- </div>
+    </div>
     
  <br/>
-      
-<hr/>
+    <hr/>
     
  <h2 align="center">⚡ Stats ⚡</h2>
     <br>
@@ -67,6 +68,6 @@
     
  <br/><br/>
     
- <hr/>
+  <hr/>
     
-<br/>
+ <br/>
