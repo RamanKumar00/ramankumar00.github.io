@@ -4,7 +4,12 @@
         <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Raman+Kumar!;" />
     </h1>
     
- <h3 align="center">A passionate software developer from India. 🇮🇳</h3>
+ <h3 align="center">
+        A passionate software developer from India. 
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="India Flag" width="25" style="vertical-align: middle;" />
+    </h3>
+    
+</h3>
     
 <br/>
     
@@ -42,7 +47,7 @@
                 <img src="https://skillicons.dev/icons?i=stackoverflow" style="margin: 0 10px 0 10px;" />
             </a>
             
- </div>
+        </div>
       </div>
      <hr/>
     <div style="display: flex;flex-direction:column; align-items: center; justify-content: center;">
