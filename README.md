@@ -4,7 +4,7 @@
         <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Raman+Kumar!;" />
     </h1>
     
- <h3 align="center">
+<h3 align="center">
         A passionate software developer from India. 
         <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="India Flag" width="25" style="vertical-align: middle;" />
     </h3>
@@ -32,22 +32,22 @@
                 <img src="https://skillicons.dev/icons?i=gmail" />
               </a>
               <a href="https://www.linkedin.com/in/raman-kumar-b80913282/" target="_blank">
-                <img src="https://skillicons.dev/icons?i=linkedin" target="_blank" style="margin: 0 10px 0 10px;" />
+                <img src="https://skillicons.dev/icons?i=linkedin" target="_blank" style="margin-left: 10px;" />
               </a>
               <a href="https://RamanKumar00.github.io" target="_blank">
-                 <img src="https://skillicons.dev/icons?i=github" target="_blank" /> 
+                 <img src="https://skillicons.dev/icons?i=github" target="_blank" style="margin-left: 10px;"/> 
               </a>
-              <a href="https://www.instagram.com/__.ramankumar__/" target="_blank">
-                <img src="https://skillicons.dev/icons?i=instagram" style="margin: 0 10px 0 10px;" />
+              <a href="https://www.instagram.com/__.ramankumar__/" target="_blank" style="margin-left: 10px;">
+                <img src="https://skillicons.dev/icons?i=instagram"  />
             </a>
-            <a href="https://discord.com/channels/939438404251287582/939438404251287584" target="_blank">
-                <img src="https://skillicons.dev/icons?i=discord" style="margin: 0 10px 0 10px;" />
+            <a href="https://discord.com/channels/939438404251287582/939438404251287584" target="_blank" style="margin-left: 10px;">
+                <img src="https://skillicons.dev/icons?i=discord" />
             </a>
-            <a href="https://stackoverflow.com/users/28973253/raman-kumar?tab=profile" target="_blank">
-                <img src="https://skillicons.dev/icons?i=stackoverflow" style="margin: 0 10px 0 10px;" />
+            <a href="https://stackoverflow.com/users/28973253/raman-kumar?tab=profile" target="_blank" style="margin-left: 10px;">
+                <img src="https://skillicons.dev/icons?i=stackoverflow" />
             </a>
             
-  </div>
+   </div>
       </div>
      <hr/>
     <div style="display: flex;flex-direction:column; align-items: center; justify-content: center;">
