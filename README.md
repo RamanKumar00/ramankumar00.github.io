@@ -47,7 +47,7 @@
                 <img src="https://skillicons.dev/icons?i=stackoverflow" style="margin: 0 10px 0 10px;" />
             </a>
             
-        </div>
+  </div>
       </div>
      <hr/>
     <div style="display: flex;flex-direction:column; align-items: center; justify-content: center;">
