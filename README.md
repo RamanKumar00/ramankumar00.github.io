@@ -30,9 +30,19 @@
                 <img src="https://skillicons.dev/icons?i=linkedin" target="_blank" style="margin: 0 10px 0 10px;" />
               </a>
               <a href="https://RamanKumar00.github.io" target="_blank">
-                 <img src="https://skillicons.dev/icons?i=github" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+                 <img src="https://skillicons.dev/icons?i=github" target="_blank" /> 
               </a>
-        </div>
+              <a href="https://www.instagram.com/__.ramankumar__/" target="_blank">
+                <img src="https://skillicons.dev/icons?i=instagram" style="margin: 0 10px 0 10px;" />
+            </a>
+            <a href="https://discord.com/channels/939438404251287582/939438404251287584" target="_blank">
+                <img src="https://skillicons.dev/icons?i=discord" style="margin: 0 10px 0 10px;" />
+            </a>
+            <a href="https://stackoverflow.com/users/28973253/raman-kumar?tab=profile" target="_blank">
+                <img src="https://skillicons.dev/icons?i=stackoverflow" style="margin: 0 10px 0 10px;" />
+            </a>
+            
+ </div>
       </div>
      <hr/>
     <div style="display: flex;flex-direction:column; align-items: center; justify-content: center;">
