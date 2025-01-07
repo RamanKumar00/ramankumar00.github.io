@@ -20,24 +20,24 @@
 
 <hr/>
 
-<div>
+<div align="left">
     <h2>Connect with me:</h2>
-    <a href="mailto:ramankr7321@gmail.com">
-        <img src="https://skillicons.dev/icons?i=gmail" style="margin-right: 10px;" />
+    <a href="mailto:ramankr7321@gmail.com" style="margin-right: 15px;">
+        <img src="https://skillicons.dev/icons?i=gmail" />
     </a>
-    <a href="https://www.linkedin.com/in/raman-kumar-b80913282/" target="_blank">
-        <img src="https://skillicons.dev/icons?i=linkedin" style="margin-right: 10px;" />
+    <a href="https://www.linkedin.com/in/raman-kumar-b80913282/" target="_blank" style="margin-right: 15px;">
+        <img src="https://skillicons.dev/icons?i=linkedin" />
     </a>
-    <a href="https://RamanKumar00.github.io" target="_blank">
-        <img src="https://skillicons.dev/icons?i=github" style="margin-right: 10px;" /> 
+    <a href="https://RamanKumar00.github.io" target="_blank" style="margin-right: 15px;">
+        <img src="https://skillicons.dev/icons?i=github" /> 
     </a>
-    <a href="https://www.instagram.com/__.ramankumar__/" target="_blank" style="margin-right: 10px;">
+    <a href="https://www.instagram.com/__.ramankumar__/" target="_blank" style="margin-right: 15px;">
         <img src="https://skillicons.dev/icons?i=instagram" />
     </a>
-    <a href="https://discord.com/channels/939438404251287582/939438404251287584" target="_blank" style="margin-right: 10px;">
+    <a href="https://discord.com/channels/939438404251287582/939438404251287584" target="_blank" style="margin-right: 15px;">
         <img src="https://skillicons.dev/icons?i=discord" />
     </a>
-    <a href="https://stackoverflow.com/users/28973253/raman-kumar?tab=profile" target="_blank" style="margin-right: 10px;">
+    <a href="https://stackoverflow.com/users/28973253/raman-kumar?tab=profile" target="_blank" style="margin-right: 15px;">
         <img src="https://skillicons.dev/icons?i=stackoverflow" />
     </a>
 </div>
