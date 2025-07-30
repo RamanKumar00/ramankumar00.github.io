@@ -58,21 +58,22 @@ const projects = [
 ]
 
 const skills = [
-  { name: "C", color: "bg-blue-500", icon: "C" },
-  { name: "C++", color: "bg-blue-600", icon: "C++" },
-  { name: "HTML", color: "bg-orange-500", icon: "</>" },
-  { name: "CSS", color: "bg-blue-600", icon: "CSS" },
-  { name: "JavaScript", color: "bg-yellow-400", icon: "JS" },
-  { name: "SQL", color: "bg-indigo-600", icon: "DB" },
-  { name: "DBMS", color: "bg-purple-600", icon: "🗄️" },
-  { name: "Dart", color: "bg-cyan-500", icon: "🎯" },
-  { name: "Flutter", color: "bg-sky-400", icon: "💙" },
-  { name: "Git", color: "bg-red-600", icon: "🐙" },
-  { name: "Linux", color: "bg-gray-800", icon: "🐧" },
-  { name: "Python", color: "bg-blue-500", icon: "🐍" },
-  { name: "Node.js", color: "bg-green-600", icon: "🟢" },
-  { name: "Web Scraping", color: "bg-emerald-600", icon: "🕷️" },
-  { name: "Automation", color: "bg-pink-500", icon: "⚙️" }
+  { name: "C", color: "bg-blue-500", icon: "/assets/c.png" },
+  { name: "C++", color: "bg-blue-600", icon: "/assets/c++.png" },
+  { name: "HTML", color: "bg-orange-500", icon: "/assets/html (1).png" },
+  { name: "CSS", color: "bg-blue-600", icon: "/assets/css-3.png" },
+  { name: "JavaScript", color: "bg-yellow-400", icon: "/assets/java-script.png" },
+  { name: "SQL", color: "bg-indigo-600", icon: "/assets/mysql.png" },
+  { name: "DBMS", color: "bg-purple-600", icon: "/assets/mysql.png" },
+  { name: "Dart", color: "bg-cyan-500", icon: "/assets/dart.png" },
+  { name: "Flutter", color: "bg-sky-400", icon: "/assets/flutter.png" },
+  { name: "Git", color: "bg-red-600", icon: "/assets/social.png" },
+  { name: "Linux", color: "bg-gray-800", icon: "/assets/linux.png" },
+  { name: "Python", color: "bg-blue-500", icon: "/assets/python.png" },
+  { name: "Node.js", color: "bg-green-600", icon: "/assets/nodejs.png" },
+  { name: "Web Scraping", color: "bg-emerald-600", icon: "/assets/web-scraper.png" },
+  { name: "Automation", color: "bg-pink-500", icon: "/assets/automated.png" },
+  { name: "Docker", color: "bg-blue-400", icon: "/assets/docker.png" },
 ]
 
 const educationData = [
@@ -576,7 +577,17 @@ export default function Portfolio() {
                       <div
                         className={`${skill.color} h-32 flex items-center justify-center text-white text-2xl font-bold`}
                       >
-                        {skill.icon}
+                        {typeof skill.icon === 'string' && skill.icon.startsWith('/assets/') ? (
+                          <Image
+                            src={skill.icon}
+                            alt={skill.name + ' logo'}
+                            width={64}
+                            height={64}
+                            className="object-contain w-16 h-16"
+                          />
+                        ) : (
+                          skill.icon
+                        )}
                       </div>
                       <div className="p-4">
                         <h3 className="font-semibold text-center">{skill.name}</h3>
