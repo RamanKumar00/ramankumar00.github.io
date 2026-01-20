@@ -1,0 +1,68 @@
+
+/* ===== CUSTOM CURSOR ===== */
+.custom-cursor-dot,
+.custom-cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  border-radius: 50%;
+  will-change: transform;
+}
+
+.custom-cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color);
+  transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+
+.custom-cursor-ring {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(14, 47, 216, 0.5);
+  box-shadow: 0 0 10px rgba(14, 47, 216, 0.2);
+  transition: width 0.3s, height 0.3s, border-color 0.3s, background-color 0.3s;
+}
+
+.custom-cursor-dot.pointer {
+  width: 12px;
+  height: 12px;
+  background-color: #ef4444; /* Red for interaction */
+  box-shadow: 0 0 15px #ef4444;
+}
+
+.custom-cursor-ring.pointer {
+  width: 60px;
+  height: 60px;
+  border-color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.05);
+}
+
+.custom-cursor-dot.clicking {
+  transform: scale(0.5);
+}
+
+.custom-cursor-ring.clicking {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(239, 68, 68, 0.2);
+}
+
+.custom-cursor-dot.hidden,
+.custom-cursor-ring.hidden {
+  opacity: 0;
+}
+
+/* Hide default cursor only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: none;
+  }
+  
+  a, button, .clickable {
+    cursor: none;
+  }
+}
