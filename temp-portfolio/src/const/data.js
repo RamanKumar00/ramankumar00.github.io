@@ -12,7 +12,10 @@ import {
   SiDocker, 
   SiCss3,
   SiLinux,
-  SiNestjs
+  SiNestjs,
+  SiFastapi,
+  SiPostgresql,
+  SiRedis
 } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
 
@@ -109,70 +112,93 @@ export const ABOUT_DATA = {
 // ============ EXPERIENCE DATA ============
 export const EXPERIENCES = [
   {
-    title: "Freelance App Developer",
-    company: "Freelance Project",
-    period: "2024.09 - 2024.10",
-    location: "Remote",
+    title: "Backend Developer Intern",
+    company: "LaFleur Tech Private Limited",
+    period: "2026.06 - 2026.07",
+    location: "Chandigarh, India",
     status: "Completed",
     description: [
-      "Designed and developed a cross-platform mobile application using Flutter and Dart with clean, intuitive UI/UX.",
-      "Integrated RESTful APIs using Postman for testing and Node.js backend services for seamless data communication.",
-      "Conducted comprehensive software testing to ensure application reliability and performance across devices.",
-      "Collaborated with client to translate requirements into a functional, visually appealing mobile application.",
+      "Worked as a backend engineer on ExpoConnect, a mobile application, contributing from ideation through prototype development.",
+      "Owned database management for the application, designing and maintaining the data layer to support core app features.",
+      "Built the backend for a short-video streaming interface, handling upload, storage, and delivery flows.",
+      "Implemented user management functionality, including JWT-based authentication and authorization.",
     ],
-    skills: ["Flutter", "Dart", "Node.js", "Postman", "API Integration"],
+    skills: ["Node.js", "React Native", "MongoDB", "JWT Authentication", "Backend Development", "Database Management"],
     isActive: false,
-    icon: "phone_android",
-    bgIcon: "code",
+    icon: "dns",
+    bgIcon: "terminal",
   },
   {
-    
-    title: "Python Automation Intern",
-    company: "Scorptech Pvt Ltd",
-    period: "2024.06 - 2024.08",
-    location: "Remote",
+    title: "Web Automation Intern",
+    company: "ScorpTech Innovation PVT. LTD.",
+    period: "2025.06 - 2025.08",
+    location: "Kolkata, India",
     status: "Completed",
     description: [
-      "Designed and developed Python-based automation scripts to streamline repetitive operational workflows.",
-      "Built robust web scraping solutions using Selenium, BeautifulSoup, and Pandas to extract data from dynamic and static websites.",
-      "Processed, cleaned, and transformed raw web data into structured formats for analysis and storage.",
-      "Increased data collection efficiency by 70% through optimized automation and scraping pipelines.",
+      "Developed a Python script to pull emails from 100k+ CIN records in Excel, cutting 3 weeks of manual work down to about 2 hours.",
+      "Built and iterated on 2 scraping pipelines (Selenium, BeautifulSoup) for static and JS-rendered sites, improving data collection time by ~70%.",
     ],
-    skills: ["Python", "Selenium", "BeautifulSoup", "Automation", "Pandas"],
+    skills: ["Python", "Pandas", "BeautifulSoup", "Selenium", "Playwright", "Multithreading"],
     isActive: false,
     icon: "work",
     bgIcon: "terminal",
+  },
+  {
+    title: "Freelance Mobile App Developer",
+    company: "Self-Employed",
+    period: "2024.10 - 2024.11",
+    location: "Remote",
+    status: "Completed",
+    description: [
+      "Built a Blinkit-style delivery app in Flutter for a local business, covering product listing, cart, and order flow from scratch.",
+      "Deployed the frontend on Vercel and the backend on a cloud server, shipping on time with no major bugs.",
+    ],
+    skills: ["Flutter", "Dart", "REST APIs", "Postman", "Frontend", "Backend"],
+    isActive: false,
+    icon: "phone_android",
+    bgIcon: "code",
   },
 ];
 
 // ============ EDUCATION DATA ============
 export const EDUCATION_DATA = [
   {
-    degree: "B.E. in Computer Science",
+    degree: "B.E. in Computer Science Engineering",
     institution: "University Of Engineering And Technology, Chandigarh",
     year: "2023 - 2027",
     status: "In Progress",
     icon: "apartment",
     bgIcon: "neurology",
     highlights: [
-      "Focus on Full Stack Development and App Development",
-      "Studying advanced algorithms, web technologies, and distributed systems"
+      "Focus on Full Stack Development, App Development, and Database Systems.",
+      "Studying advanced algorithms, data structures, and computer networks."
     ],
-    skills: ["Full Stack", "App development", "Web Tech"]
+    skills: ["Full Stack", "Data Structures", "OOPs", "DBMS"]
   },
   {
-    degree: "Secondary Education in PCM",
+    degree: "12th - CBSE Board (PCM)",
     institution: "Maharishi Arvind Public School, Kota",
-    year: "2021 - 2023",
+    year: "2023",
     status: "Completed",
     icon: "school",
     bgIcon: "code_blocks",
     highlights: [
-      "Strong foundation in mathematics and physics",
+      "Strong foundation in mathematics and physics.",
     ],
-    skills: [ "Math", "Physics", "Chemistry"],
+    skills: ["Math", "Physics", "Chemistry"],
   },
-
+  {
+    degree: "10th - CBSE Board",
+    institution: "Maharishi Arvind Public School, Kota",
+    year: "2021",
+    status: "Completed",
+    icon: "school",
+    bgIcon: "code_blocks",
+    highlights: [
+      "Completed secondary education with focus on general sciences and mathematics.",
+    ],
+    skills: ["General Science", "Mathematics"],
+  }
 ];
 
 // ============ EDUCATION STATS ============
@@ -230,12 +256,66 @@ export const CERTIFICATIONS = [
 // ============ PROJECTS DATA ============
 export const PROJECTS = [
   {
+    title: "RaaS (Recommendation-as-a-Service)",
+    status: "ONGOING",
+    statusType: "active",
+    badge: "BACKEND SYSTEM",
+    description: "A multi-tenant Recommendation-as-a-Service platform. Features strict tenant_id + project_id data isolation, async persistence, modular candidate pipelines, and YAML configuration.",
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80",
+    tech: ["Python", "FastAPI", "SQLAlchemy 2.0", "PostgreSQL", "Pydantic", "Alembic", "Pytest"],
+    actionIcon: "code",
+    actionText: "VIEW SOURCE",
+    links: { live: "https://github.com/RamanKumar00", github: "https://github.com/RamanKumar00" },
+    details: {
+      problem: "Designing a backend that serves custom recommendation queries for multiple tenants while keeping data strictly isolated.",
+      solution: "Built an async FastAPI application leveraging SQLAlchemy 2.0 with strict database-level filtering. Implemented modular pipelines for candidate generation, filtering, ranking, and post-processing.",
+      challenges: [
+        "Achieving sub-100ms response times for complex multi-tenant candidate queries",
+        "Maintaining database migrations with dynamic schemas",
+        "Configuring complex runtime validations"
+      ],
+      learnings: [
+        "Advanced database modeling and JSONB with PostgreSQL",
+        "Writing asynchronous test suites with Pytest",
+        "Extensible data pipeline patterns"
+      ],
+      images: []
+    }
+  },
+  {
+    title: "PlaceMentor AI",
+    status: "COMPLETED",
+    statusType: "active",
+    badge: "AI & DEVOPS",
+    description: "AI-powered placement preparation platform. Parses resumes with PyMuPDF, scores relevance using TF-IDF and cosine similarity, and offloads evaluations to Celery/Redis.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+    tech: ["FastAPI", "Streamlit", "PostgreSQL", "Celery", "Redis", "Docker", "PyMuPDF"],
+    actionIcon: "visibility",
+    actionText: "VIEW SOURCE",
+    links: { live: "https://github.com/RamanKumar00", github: "https://github.com/RamanKumar00" },
+    details: {
+      problem: "Comparing large batches of PDF resumes against job descriptions synchronously, which blocked the main request thread.",
+      solution: "Offloaded heavy PDF parsing and text scoring tasks to Celery workers with a Redis broker. Created a Streamlit & Plotly dashboard to present candidate insights.",
+      challenges: [
+        "Optimizing memory usage during concurrent document parsing",
+        "Refining TF-IDF and cosine similarity calculations for custom resumes",
+        "Orchestrating multi-container Docker deployments"
+      ],
+      learnings: [
+        "Asynchronous task queues and workers (Celery/Redis)",
+        "Text extraction and NLP scoring metrics",
+        "Multi-container containerization with Docker Compose"
+      ],
+      images: []
+    }
+  },
+  {
     title: "KalaaKriti",
     status: "BETA",
     statusType: "active",
     badge: "FEATURED",
     description: "Modern Android wallpaper app with glassmorphic UI. Features thousands of high-res images via Pexels API, offline access, and Supabase backend.",
-    image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=600&q=80",
     tech: ["Flutter", "Supabase", "Pexels API", "Hive"],
     actionIcon: "download",
     actionText: "DOWNLOAD APK",
@@ -254,7 +334,7 @@ export const PROJECTS = [
     statusType: "active",
     badge: "REAL-TIME",
     description: "Secure, real-time messaging platform built with Flutter & Firebase. Features BLoC state management, native performance across devices, and instant synchronization.",
-    image: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80",
     tech: ["Flutter", "Dart", "Firebase", "BLoC/Cubit", "Clean Arch"],
     actionIcon: "chat",
     actionText: "VIEW REPO",
@@ -390,6 +470,30 @@ export const SKILLS_DATA = [
     category: "tools",
     description: "Containerization and isolated deployment environments.",
     proficiency: 60
+  },
+  {
+    name: "FastAPI",
+    icon: <SiFastapi size={40} />,
+    version: "Latest",
+    category: "frameworks",
+    description: "Modern, high-performance web framework for building APIs with Python.",
+    proficiency: 80
+  },
+  {
+    name: "PostgreSQL",
+    icon: <SiPostgresql size={40} />,
+    version: "v15+",
+    category: "tools",
+    description: "Powerful, open-source object-relational database system.",
+    proficiency: 75
+  },
+  {
+    name: "Redis",
+    icon: <SiRedis size={40} />,
+    version: "Latest",
+    category: "tools",
+    description: "In-memory data structure store used as a database, cache, and message broker.",
+    proficiency: 70
   }
 ];
 
